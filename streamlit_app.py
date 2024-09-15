@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 # '''Made By Abhijeet'''
 
 
-loaded_model = pickle.load(open('C:/Users/abhij/Desktop/Projects/DiabeScan/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('/trained_model.sav', 'rb'))
 
 
 def diabetes_prediction(input_data):
