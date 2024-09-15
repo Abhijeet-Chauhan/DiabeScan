@@ -3,10 +3,10 @@ import pickle
 import streamlit as st
 import streamlit.components.v1 as components
 
-'''Made By Abhijeet'''
+# '''Made By Abhijeet'''
 
 
-loaded_model = pickle.load(open('C:/Users/abhij/Desktop/Projects/ML/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/abhij/Desktop/Projects/DiabeScan/trained_model.sav', 'rb'))
 
 
 def diabetes_prediction(input_data):
